@@ -1,0 +1,73 @@
+body { padding-top: 70px;}
+
+/* ------NAVBAR------ */
+.navbar-inverse { background-color: #2c3e50; }
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #132538;
+}
+
+.navbar-inverse a:link,
+.navbar-inverse li a:link{ 
+    color: #cce0e0;
+}
+
+#bs-hamburger {
+    text-align: center;
+}
+
+.brand-icon { color: #fff; }
+
+
+
+/* ------Jumbotron------ */
+
+.jumbotron {
+    background-color: #e8f0f0;
+    color: #2c3e50;
+}
+
+@media only screen and (max-width:500px){
+    span {
+        display: block;
+    }
+    .jumbotron { text-align: center; }
+    span:first-of-type{ font-size: 200% }
+}
+
+/* ------Gallery------ */
+
+/* Image pop-up*/
+@media only screen and (min-width:970px) {
+    .image-link { cursor: zoom-in; }
+}
+
+
+footer {
+    height: 70px;
+    background-color: #132538;
+    color: #cce0e0;;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p { padding-top: 20px; }
+
+
+
+/* ------Animation------ */
+
+
+.js-jumbo, .js-row-1,
+.js-row-2, .js-row-3,
+footer {
+    opacity: 0;
+    animation-duration: 1s;
+}
+.js-jumbo .animated, .js-row-1 .animated, 
+.js-row-2 .animated, .js-row-3 .animated,
+footer .animated{
+    opacity: 1;
+}
+
+
